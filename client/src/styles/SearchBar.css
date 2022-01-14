@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.searchBox input {
+  padding: 6px;
+  border: none;
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+.searchBox button{
+    padding: 7px;
+    background-color: rgb(2, 2, 2);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.searchBox button:hover{
+    background-color: #00b894 ;
+}

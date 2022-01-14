@@ -1,0 +1,66 @@
+
+.detailContainer{
+	width: 650px;
+	max-width: 1200px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+}
+
+.detailContainer .detailProps{
+	width: auto;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 9px 9px 19px 9px #000000;
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+	animation: moverderecha 1s ease-in;
+}
+
+.detailContainer .detailProps img{
+	width: 400px;
+	height: 220px;
+	justify-content: center;
+}
+
+.detailContainer .detailProps h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 60px;
+	color: white;
+}
+
+.detailContainer .detailProps p{
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 15px;
+	font-size: 20px;
+	color: white;
+}
+.btnDetail{
+	font-family: "Inter", sans-serif;
+	background-color: rgba(221, 221, 221, 0.5);
+	border-color: rgba(190, 190, 190, 1.0);
+	color: rgb(255, 255, 255);
+	border-radius: 25px;
+	padding: 12px 24px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+@keyframes moverderecha {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

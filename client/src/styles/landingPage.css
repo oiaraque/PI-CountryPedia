@@ -1,0 +1,21 @@
+.landing{
+	background-image: url("../img/background2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	
+
+}	
+
+.btn{
+	font-family: "Inter", sans-serif;
+	background-color: rgba(221, 221, 221, 0.5);
+	border-color: rgba(190, 190, 190, 1.0);
+	color: rgb(255, 255, 255);
+	border-radius: 25px;
+	padding: 12px 24px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 420px;
+}

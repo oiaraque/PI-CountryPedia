@@ -1,0 +1,219 @@
+
+
+.homeContainer{
+	background-color: #182C61;	
+}
+
+.homeContainer h1{
+	font-family: 'Lato', sans-serif;
+  	font-size: 120px;
+  	text-shadow: 6px 6px 8px black;
+	font-weight: bold;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.reload{
+	font-family: "Inter", sans-serif;
+	background-color: rgba(221, 221, 221, 0.5);
+	border-color: rgba(190, 190, 190, 1.0);
+	color: rgb(255, 255, 255);
+	border-radius: 25px;
+	padding: 12px 24px;
+	text-align: center;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.activity{
+	font-family: "Inter", sans-serif;
+	background-color: rgba(221, 221, 221, 0.5);
+	border-color: rgba(190, 190, 190, 1.0);
+	color: rgb(255, 255, 255);
+	border-radius: 25px;
+	padding: 12px 24px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 40px;
+	cursor: pointer;
+}
+
+.order{
+	display: flex;
+	flex-wrap: wrap;
+	justify-items: center;
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+.alfabetico{
+	margin: 20px auto 40px auto;
+	border: 1px solid #d9d9d9;
+	height: 40px;
+	overflow: hidden;
+	width: 230px;
+	position: relative;
+}
+
+.alfabetico select{
+	font-family: "Inter", sans-serif;
+	background: transparent;
+	border: none;
+	font-size: 17px;
+	height: 30px;
+	padding: 5px;
+	width: 250px;
+	color: white;
+	margin-bottom: 20px
+}
+
+.continente{
+	margin: 20px auto 40px auto;
+	border: 1px solid #d9d9d9;
+	height: 40px;
+	overflow: hidden;
+	width: 230px;
+	position: relative;
+}
+
+.continente select{
+	font-family: "Inter", sans-serif;
+	background: transparent;
+	border: none;
+	font-size: 17px;
+	height: 30px;
+	padding: 5px;
+	width: 250px;
+	color: white;
+	margin-bottom: 20px
+}
+
+.continente select:focus{
+	outline: none;
+}
+
+.poblacion{
+	margin: 20px auto 40px auto;
+	border: 1px solid #d9d9d9;
+	height: 40px;
+	overflow: hidden;
+	width: 230px;
+	position: relative;
+}
+
+
+.poblacion select{
+	font-family: "Inter", sans-serif;
+	background: transparent;
+	border: none;
+	font-size: 17px;
+	height: 30px;
+	padding: 5px;
+	width: 250px;
+	color: white;
+	margin-bottom: 20px
+	
+}
+
+
+.poblacion select:focus{
+	outline: none;
+}
+
+
+.actividad{
+	margin: 20px auto 40px auto;
+	border: 1px solid #d9d9d9;
+	height: 40px;
+	overflow: hidden;
+	width: 230px;
+	position: relative;
+}
+
+.actividad select{
+	font-family: "Inter", sans-serif;
+	background: transparent;
+	border: none;
+	font-size: 17px;
+	height: 30px;
+	padding: 5px;
+	width: 250px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+
+.actividad select:focus{
+	outline: none;
+}
+
+
+.alfabetico::after{
+	content: "\025be";
+	display: table-cell;
+	padding-top: 7px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	background-color: #d9d9d9;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	pointer-events: none;
+}
+
+.continente::after{
+	content: "\025be";
+	display: table-cell;
+	padding-top: 7px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	background-color: #d9d9d9;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	pointer-events: none;
+}
+
+.poblacion::after{
+	content: "\025be";
+	display: table-cell;
+	padding-top: 7px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	background-color: #d9d9d9;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	pointer-events: none;
+}
+
+.actividad::after{
+	content: "\025be";
+	display: table-cell;
+	padding-top: 7px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	background-color: #d9d9d9;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	pointer-events: none;
+}
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.cards p{
+	color:  white;
+}
